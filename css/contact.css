@@ -156,12 +156,8 @@ h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
-}
-
 .container {
-    width: 900px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -173,13 +169,13 @@ p {
 
 .lambda-logo {
     padding-top: 5px;
-    padding-right: 55px;
+    padding-right: 100px;
 }
 
 .nav-2 {
-    word-spacing: 95px;
-    padding-top: 25px;
-    padding-right: 50px;
+    word-spacing: 85px;
+    padding-top: 20px;
+    padding-right: 30px;
 }
 
 .nav-2 a {
@@ -188,83 +184,75 @@ p {
     font-size: 13px;
 }
 
-.lambda-about {
-    width: 100%;
-    height: 120px;
+.coding {
+    width: 75%;
+    height: 130px;
     margin: 20px;
 }
 
-.top-heading {
-    width: 95%;
-    padding-left: 30px;
-    margin-bottom: 10px;
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-header {
-    margin-bottom: 20px;
-    border-bottom: 1px dotted black;
-}
-
-h2 {
-    padding-top: 15px;
-    font-size: 16px;
-}
-
-p {
-    font-size: 14px;
-}
-
-.middle-top {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.mid-1 {
-    width: 40%;
-    margin: 30px 30px 10px 30px;
-    border-bottom: 1px dotted black;
-}
-
-button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 7px;
-    border: 1px solid black;
-    height: 25px;
-    width: 95px;
-}
-
-.middle-bottom {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.mid-2 {
-    width: 40%;
-    margin: 30px 30px 10px 30px;
-    border-bottom: 1px dotted black;
-}
-
-.footer-head {
-    width: 90%;
-    padding-left: 30px;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.btm-nav {
-    background-color: black;
-    word-spacing: 30px;
-    font-size: 14px;
-    height: 40px;
+.contact-title {
     margin-top: 30px;
-    padding-top: 14px;
-    padding-left: 15px;
 }
 
-.btm-nav a {
-    text-decoration: none;
+.contact-title h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.contact-title h2 {
+    font-size: 20px;
+    line-height: 10px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 300px;
+    background: transparent;
+    border: 1px dotted black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+input {
+    height: 30px;
+}
+
+form .submit {
+    background: white;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+form .submit:hover {
+    background-color: rgb(2, 132, 175);
+}
+
+footer {
+    width: 80%;
+    margin-left: 100px;
+    background: black;
+}
+
+footer nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+footer nav a {
     color: white;
+    text-decoration: none;
 }
