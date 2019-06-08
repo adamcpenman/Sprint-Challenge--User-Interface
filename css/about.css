@@ -202,16 +202,17 @@ p {
 
 header {
     margin-bottom: 20px;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
 }
 
 h2 {
     padding-top: 15px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p {
     font-size: 14px;
+    line-height: 1.4;
 }
 
 .middle-top {
@@ -223,12 +224,12 @@ p {
 .mid-1 {
     width: 40%;
     margin: 30px 30px 10px 30px;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
 }
 
 button {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 7px;
     border: 1px solid black;
     height: 25px;
@@ -244,7 +245,7 @@ button {
 .mid-2 {
     width: 40%;
     margin: 30px 30px 10px 30px;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
 }
 
 .footer-head {
